@@ -117,6 +117,7 @@ h5 {
     height: 77vh;
     border-radius: 6px;
     background-color: white;
+    text-align: center;
 }
 
 h1 {
@@ -124,6 +125,12 @@ h1 {
     bottom: 5.5vh;
     font-size: 48px;
     font-weight: 600;
+}
+
+.card-para {
+    font-size: 14px;
+    width: 36vw;
+    margin: auto;
 }
 
 /* Footer */
@@ -163,11 +170,17 @@ h1 {
         width: 90vw;
         height: 77vh;
         border-radius: 6px;
+        margin: auto;
     }
 
     h1 {
         position: relative;
         bottom: 2.5vh;
         font-size: 24px;
+    }
+
+    .card-para {
+        font-size: 12px;
+        width: 75vw;
     }
 }
