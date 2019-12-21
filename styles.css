@@ -59,8 +59,9 @@ button:focus {outline:0;}
 h2 {
     font-weight: 900;
     font-size: 36px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 20px;
+    line-height: 40px;
 }
 
 .flux {
@@ -76,6 +77,7 @@ h4 {
 .para1 {
     font-size: 18px;
     line-height: 24px;
+    margin-top: 0px !important;
 }
 
 .register-big {
