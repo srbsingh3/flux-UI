@@ -1,6 +1,14 @@
 html {
     scroll-behavior: smooth;
-    overflow: hidden;
+}
+
+/* div {
+    border: solid 1px red;
+} */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #22272E;
 }
 
 *,*::before,*::after {
@@ -21,16 +29,83 @@ html {
 
 button:focus {outline:0;}
 
+/* Header */
+.nav-item > a{
+    font-size: 16px;
+    margin-left: 13px;
+    color: #22272E;
+    text-decoration: none;
+}
+
+.nav-item > a:hover{
+    color: #FF6666;
+}
+
+.register-nav {
+    background-color: #FF6666;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    height: 30px;
+    width: 108px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(./assets/hamburger.svg);
+}
+
+/* Main Content */
+h2 {
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flux {
+    margin-top: 105px;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.para1 {
+    font-size: 18px;
+}
+/* Footer */
 .left-footer {
     background-color: #3333CC;
     height: 450px;
+    text-align: center;
 }
 
-img {
-    margin: 100px;
+.left-footer > img {
+    margin-top: 159px;
 }
 
 .right-footer {
     background-image: linear-gradient(180deg, #3333CC 0%, #6666FF 100%);
     height: 450px;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-footer > img {
+        margin-top: 195px;
+        width: 45px;
+        height: 60px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .flux {
+        width: 170px;
+        height: 69px;
+        margin-top: 60px;
+    }
 }
