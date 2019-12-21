@@ -75,7 +75,20 @@ h4 {
 
 .para1 {
     font-size: 18px;
+    line-height: 24px;
 }
+
+.register-big {
+    background-color: #FF6666;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 45px;
+    font-size: 21px;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+
 /* Footer */
 .left-footer {
     background-color: #3333CC;
