@@ -111,6 +111,21 @@ h5 {
     height: 330px;
 }
 
+/* Nutanix.Design */
+.white-bg {
+    width: 70vw;
+    height: 77vh;
+    border-radius: 6px;
+    background-color: white;
+}
+
+h1 {
+    position: relative;
+    bottom: 5.5vh;
+    font-size: 48px;
+    font-weight: 600;
+}
+
 /* Footer */
 .left-footer {
     background-color: #3333CC;
@@ -142,5 +157,11 @@ h5 {
         width: 170px;
         height: 69px;
         margin-top: 60px;
+    }
+
+    h1 {
+        position: relative;
+        bottom: 2.5vh;
+        font-size: 24px;
     }
 }
