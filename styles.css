@@ -90,6 +90,7 @@ h4 {
     font-size: 21px;
     font-weight: 900;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 /* Cards */
@@ -307,7 +308,7 @@ h1 {
     /* Cards */
     .card-bg {
         width: 90vw;
-        height: 90vh;
+        height: 107vh;
     }
 
     .talk-1 {
@@ -342,5 +343,31 @@ h1 {
         width: 80vw;
         position: relative;
         right: 75vw;
+        top: 40vh;
+    }
+
+    h5 {
+        position: relative;
+        right: 75vw;
+        top: 40vh;
+    }
+
+    h2 {
+        position: relative;
+        right: 75vw;
+        top: 40vh;
+    }
+
+    .gradient {
+        position: relative;
+        right: 75vw;
+        width: 20vw;
+        top: 40vh;
+    }
+
+    .talk-link {
+        position: relative;
+        right: 75vw;
+        top: 43vh;
     }
 }
