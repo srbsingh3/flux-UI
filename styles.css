@@ -110,6 +110,8 @@ span {
     height: 75vh;
     width: 70vw;
     margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .talk-wrapper-1 {
@@ -197,6 +199,8 @@ h6 {
     border-radius: 6px;
     background-color: white;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
