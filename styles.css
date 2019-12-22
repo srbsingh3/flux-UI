@@ -352,7 +352,7 @@ h1 {
         top: 40vh;
     }
 
-    h2 {
+    .talk-wrapper-2 > h2 {
         position: relative;
         right: 75vw;
         top: 40vh;
