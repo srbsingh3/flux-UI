@@ -10,6 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #22272E;
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 *,*::before,*::after {
@@ -339,35 +340,40 @@ h1 {
         bottom: 8vh;
     }
 
+    .talk-wrapper-2:nth-child(2) {
+        position: relative;
+        right: 75vw;
+        bottom: 12vw;
+        width: 80vw;
+    }
+
     .talk-para {
         width: 80vw;
         position: relative;
-        right: 75vw;
         top: 40vh;
     }
 
     h5 {
         position: relative;
-        right: 75vw;
         top: 40vh;
+        width: 80vw;
     }
 
     .talk-wrapper-2 > h2 {
         position: relative;
-        right: 75vw;
         top: 40vh;
+        width: 80vw;
     }
 
     .gradient {
         position: relative;
-        right: 75vw;
         width: 20vw;
         top: 40vh;
     }
 
     .talk-link {
         position: relative;
-        right: 75vw;
         top: 43vh;
+        width: 80vw;
     }
 }
