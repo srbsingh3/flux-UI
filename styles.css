@@ -97,24 +97,58 @@ h5 {
     font-weight: 600;
 }
 
-.card {
+.card-bg {
+    background-color: white;
     border-radius: 6px;
-    border: none;
-    position: relative;
-    width: 840px;
-    height: 500px;
+    height: 75vh;
+    width: 70vw;
+    margin-top: 20vh;
 }
 
-.card > img {
-    position: absolute;
-    width: 470px;
-    height: 330px;
+.talk-wrapper-1 {
+    display: flex;
+}
+
+.talk-1 {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 600;
+    letter-spacing: 2.54px;
+    color: #6666FF;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.2vw;
+    position: relative;
+    bottom: 5.2vh;
+}
+
+.talk-2 {
+    font-size: 33px;
+    line-height: 45px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #6666FF;
+    position: relative;
+    bottom: 6vh;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.2vw;
+}
+
+h6 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 55px;
+    color: #4D5969;
+    margin-left: 1.2vw;
+    position: relative;
+    bottom: 5.3vh;
 }
 
 /* Nutanix.Design */
 .white-bg {
     width: 70vw;
-    height: 85vh;
+    height: 80vh;
     border-radius: 6px;
     background-color: white;
     text-align: center;
@@ -143,6 +177,10 @@ h1 {
     text-decoration: none;
     position: relative;
     top: 2.5vh;
+}
+
+.card-link:hover {
+    color: #FF6666;
 }
 
 .team-img {
@@ -215,5 +253,28 @@ h1 {
         width: 90vw;
         height: auto;
         position: relative;
+    }
+
+    /* Cards */
+    .card-bg {
+        width: 90vw;
+        height: 75vh;
+    }
+
+    .talk-1 {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        bottom: 28px;
+    }    
+
+    .talk-2 {
+        font-size: 21px;
+        letter-spacing: 1.27px;
+        bottom: 40px;
+    }
+
+    h6 {
+        font-size: 21px;
+        bottom: 30px;
     }
 }
