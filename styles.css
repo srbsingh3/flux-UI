@@ -100,6 +100,10 @@ h5 {
     margin: 0;
 }
 
+span {
+    font-size: 44px;
+}
+
 .card-bg {
     background-color: white;
     border-radius: 6px;
@@ -155,8 +159,30 @@ h6 {
 .talk-para {
     text-align: left;
     width: 350px;
-    margin-left: auto;
+    margin-left: 0;
     margin-right: 70px;
+    font-size: 14px;
+}
+
+.gradient {
+    text-align: left;
+    height: 5px;
+    width: 460px;
+    background-image: linear-gradient(270deg, #6666FF 0%, #FF6666 100%);
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.talk-link {
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #22272E;
+    position: relative;
+    top: 20px;
+}
+
+.talk-link:hover {
+    color: #FF6666;
 }
 
 .talk-img {
@@ -295,5 +321,9 @@ h1 {
     h6 {
         font-size: 21px;
         bottom: 30px;
+    }
+
+    span {
+        font-size: 21px;
     }
 }
