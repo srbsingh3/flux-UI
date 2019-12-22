@@ -307,7 +307,7 @@ h1 {
     /* Cards */
     .card-bg {
         width: 90vw;
-        height: 75vh;
+        height: 90vh;
     }
 
     .talk-1 {
@@ -331,15 +331,16 @@ h1 {
         font-size: 21px;
     }
 
-    /* .talk-wrapper-2 {
-        display: flex;
-        flex-direction: column;
-    } */
-
     .talk-img {
         width: 80vw;
         margin: auto;
         left: 5vw;
         bottom: 8vh;
+    }
+
+    .talk-para {
+        width: 80vw;
+        position: relative;
+        right: 75vw;
     }
 }
