@@ -109,8 +109,8 @@ span {
 .card-bg {
     background-color: white;
     border-radius: 6px;
-    height: 75vh;
-    width: 70vw;
+    height: 460px;
+    width: 880px;
     margin-top: 20vh;
     margin-left: auto;
     margin-right: auto;
@@ -134,7 +134,7 @@ span {
     padding: 0;
     margin-left: 2.2vw;
     position: relative;
-    bottom: 5.2vh;
+    bottom: 30px;
 }
 
 .talk-2 {
@@ -144,7 +144,7 @@ span {
     letter-spacing: 2px;
     color: #6666FF;
     position: relative;
-    bottom: 6vh;
+    bottom: 37px;
     margin: 0;
     padding: 0;
     margin-left: 2.2vw;
@@ -157,7 +157,7 @@ h6 {
     color: #4D5969;
     margin-left: 1.2vw;
     position: relative;
-    bottom: 5.3vh;
+    bottom: 33px;
 }
 
 .talk-para {
@@ -196,8 +196,8 @@ h6 {
 
 /* Nutanix.Design */
 .white-bg {
-    width: 70vw;
-    height: 80vh;
+    width: 880px;
+    height: 550px;
     border-radius: 6px;
     background-color: white;
     text-align: center;
@@ -207,14 +207,14 @@ h6 {
 
 h1 {
     position: relative;
-    bottom: 5.5vh;
+    bottom: 35px;
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .card-para {
     font-size: 14px;
-    width: 36vw;
+    width: 470px;
     line-height: 18px;
     margin: auto;
     position: relative;
@@ -227,7 +227,7 @@ h1 {
     color: #22272E;
     text-decoration: none;
     position: relative;
-    top: 2.5vh;
+    top: 20px;
 }
 
 .card-link:hover {
@@ -236,7 +236,7 @@ h1 {
 
 .team-img {
     position: relative;
-    top: 10vh;
+    top: 73px;
 }
 
 .team-img > img {
@@ -278,22 +278,24 @@ h1 {
         margin-top: 60px;
     }
 
+    /* Nutanix.Design */
     .white-bg {
         width: 90vw;
-        height: 60vh;
+        height: 442px;
         border-radius: 6px;
         margin: auto;
     }
 
     h1 {
         position: relative;
-        bottom: 2.5vh;
+        bottom: 16px;
         font-size: 24px;
     }
 
     .card-para {
         font-size: 12px;
         width: 75vw;
+        margin-top: 30px;
     }
 
     .card-link {
@@ -309,7 +311,7 @@ h1 {
     /* Cards */
     .card-bg {
         width: 90vw;
-        height: 107vh;
+        height: 44rem;
     }
 
     .talk-1 {
@@ -337,7 +339,7 @@ h1 {
         width: 80vw;
         margin: auto;
         left: 5vw;
-        bottom: 8vh;
+        bottom: 4rem;
     }
 
     .talk-wrapper-2:nth-child(2) {
@@ -350,30 +352,30 @@ h1 {
     .talk-para {
         width: 80vw;
         position: relative;
-        top: 40vh;
+        top: 17rem;
     }
 
     h5 {
         position: relative;
-        top: 40vh;
+        top: 16.4rem;
         width: 80vw;
     }
 
     .talk-wrapper-2 > h2 {
         position: relative;
-        top: 40vh;
+        top: 17rem;
         width: 80vw;
     }
 
     .gradient {
         position: relative;
         width: 20vw;
-        top: 40vh;
+        top: 17rem;
     }
 
     .talk-link {
         position: relative;
-        top: 43vh;
+        top: 18.3rem;
         width: 80vw;
     }
 }
