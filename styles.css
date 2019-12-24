@@ -95,6 +95,16 @@ h4 {
 }
 
 /* Cards */
+.stories-bg {
+    height: fit-content;
+    padding-bottom: 25vh;
+    padding-left: 0;
+    padding-right: 0;
+    background: linear-gradient(0deg, rgba(255,102,102,0.25) 49%, rgba(102,102,255,0.25) 100%);
+    /* background: url("./assets/fancy.svg") top no-repeat, linear-gradient(0deg, rgba(255,102,102,0.25) 49%, rgba(102,102,255,0.25) 100%); */
+    /* background-size: 100vw; */
+}
+
 h5 {
     font-size: 16px;
     font-weight: 600;
