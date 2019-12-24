@@ -395,7 +395,7 @@ h1 {
     }
 
     span {
-        font-size: 21px;
+        font-size: 25px;
     }
 
     .talk-img {
@@ -457,5 +457,35 @@ h1 {
 
     .agenda:nth-child(2) {
         margin-left: 0;
+        padding-bottom: 60px;
+    }
+
+    .agenda-text-1 {
+        margin-left: 4vw;
+        font-size: 17px;
+    }
+
+    .agenda-text-2 {
+        margin-left: 4vw;
+        font-size: 20px;
+    }
+
+    .venue-link {
+        margin-left: 4vw;
+        font-size: 20px;
+    }
+
+    .agenda > h6 {
+        margin-left: 4vw;
+    }
+
+    .about-h {
+        font-size: 25px;
+        margin-left: 4vw;
+        margin-top: 70px;
+    }
+
+    .about-h > .agenda-text-1 {
+        width: 82vw;
     }
 }
