@@ -363,8 +363,7 @@ h1 {
 /* Media Query */
 @media only screen and (max-width: 600px) {
     .navbar-nav {
-        align-items: flex-end;
-        padding-right: 4.5vw;
+        align-items: center;
     }
 
     .left-footer > img {
