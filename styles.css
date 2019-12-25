@@ -343,19 +343,19 @@ h1 {
 }
 
 /* Footer */
-.left-footer {
+.footer-row {
     background-color: #3333CC;
-    height: 450px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.left-footer > img {
-    margin-top: 159px;
-}
-
-.right-footer {
-    background-image: linear-gradient(180deg, #3333CC 0%, #6666FF 100%);
-    height: 450px;
+.social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    height: 15rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
 /* -------------------------------------------- */
@@ -365,12 +365,6 @@ h1 {
     .navbar-nav {
         align-items: center;
         padding-right: 5vw;
-    }
-
-    .left-footer > img {
-        margin-top: 195px;
-        width: 45px;
-        height: 60px;
     }
 
     h2 {
@@ -546,5 +540,15 @@ h1 {
 
     .about-h > .agenda-text-1 {
         width: 80vw;
+    }
+
+    /* Footer */
+    .social-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center !important;
+        height: 15rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
