@@ -46,6 +46,7 @@ button:focus {outline:0;}
 
 .register-nav {
     background-color: #FF6666;
+    opacity: 0.6;
     color: white;
     border: none;
     border-radius: 6px;
@@ -86,6 +87,7 @@ h4 {
 
 .register-big {
     background-color: #FF6666;
+    opacity: 0.6;
     color: white;
     border: none;
     border-radius: 6px;
